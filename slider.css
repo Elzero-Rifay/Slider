@@ -1,0 +1,59 @@
+h1 {
+  position: relative;
+  left: 46%;
+  top: 100px;
+}
+
+.d1 {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  left: 45%;
+  top: 100px;
+}
+
+.container {
+  display: inline-flex;
+ 
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5 {
+  width: 200px;
+  height: 200px;
+  background-color: chartreuse;
+  position: relative;
+  animation: anim 5s infinite;
+}
+
+
+
+p {
+  font-size: 110px;
+  text-align: center;
+  color: antiquewhite;
+  position: relative;
+  top: -75px;
+}
+
+@keyframes anim {
+ 10% {
+    right: 200px;
+  }
+  20% {
+    right: 300px;
+  }
+  60% {
+    right: 400px;
+  }
+  80% {
+    right: 500px;
+  }
+  100% {
+    right: 600px;
+  }
+}
